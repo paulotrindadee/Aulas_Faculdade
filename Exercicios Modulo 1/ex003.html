@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQuery</title>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.5.1.js"
+    ></script>
+  </head>
+  <body>
+    <p id="paragrafo_texto">Texto do Parágrafo</p>
+
+    <ul>
+      <li class="item_lista">Primeiro item</li>
+      <li class="item_lista">Segunto item</li>
+      <li class="item_lista">Terceito item</li>
+    </ul>
+    <script type="text/javascript">
+      // Imprimirá Text do parágrafo
+
+      console.log($('#paragrafo_texto').html())
+
+      // imprimirá Primeiro item
+
+      console.log($('.item_lista').eq(0).html())
+    </script>
+  </body>
+</html>
